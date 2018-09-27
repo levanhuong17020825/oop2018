@@ -3,7 +3,7 @@ package week2.task1;
 public class Task1 {
 
     public static int gcd(int a, int b) {
-        a = abs(a);
+	    a = abs(a);
 	    b = abs(b);
 	    if (a == 0 && b != 0)
 	    {
@@ -24,7 +24,7 @@ public class Task1 {
 			    b -= a;
 		    }
 	    }
-        return a;
+            return a;
         return 0;
     }
 
